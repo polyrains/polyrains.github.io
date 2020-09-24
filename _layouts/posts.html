@@ -1,0 +1,11 @@
+<head>
+    <title> Test! </title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    Hi this is a new page!
+    {{ content }}
+    {{ page.title }}
+    <a href="{{ "/blah.html" | absolute_url }}">Using LIQUID Filters</a>
+    <a href={% link blah.md %}> Using Tags </a>
+</body>
